@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-  copilot-requests: write
 engine: copilot
 model: copilot/gpt-5-mini
 inlined-imports: true
