@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  copilot-requests: write
 engine: copilot
 imports:
   - neve-larsson/zz-aw-component-1788615458/.github/workflows/scope-component.md@1ed8c3d203e6b06948057dcd872913bd36e39faa
