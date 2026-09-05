@@ -4,7 +4,7 @@ on:
 permissions:
   contents: read
 engine: copilot
-model: copilot/gpt-5-mini
+model: copilot/gpt-5.6-luna-free-auto
 inlined-imports: true
 imports:
   - neve-larsson/zz-aw-component-1788615458/.github/workflows/scope-component.md@1ed8c3d203e6b06948057dcd872913bd36e39faa
